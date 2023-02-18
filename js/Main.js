@@ -22,7 +22,7 @@ $(document).ready(function(){
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["o Reportei e temos a melhor ferramenta para criar gráficos e dashboards!", "o Reportei e vamos aumentar a produtividade da sua empresa!"],
+        strings:["A melhor marcenaria do mundo e estamos prontos para te atender!", "A melhor carpintaria do mundo e estamos prontos para te atender!"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
