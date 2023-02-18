@@ -16,7 +16,7 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Aqui você encontra os melhores produtos!"],
+         strings:["aqui você encontra os melhores produtos!"],
          typeSpeed:100,
          backSpeed:100,
          loop:true
