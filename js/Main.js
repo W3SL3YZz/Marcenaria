@@ -32,3 +32,34 @@ $(document).ready(function(){
 
 document.write("<h1>Array: "+Array02 +"</h1>");
 document.write("<h1>Tamanho: "+Array02.length +"</h1>");
+
+
+// Define as rotas e suas correspondentes páginas HTML
+const routes = {
+    '/': 'index.html',
+    '/produtos': 'produtos.html',
+  };
+  
+  // Adiciona um listener de eventos para mudança da URL
+  window.addEventListener('popstate', () => {
+    // Verifica a URL atual
+    const path = window.location.pathname;
+  
+    // Carrega a página HTML correspondente
+    const page = routes[path];
+    if (page) {
+      fetch(page)
+        .then(response => response.text())
+        .then(html => {
+          // Insere o conteúdo da página no elemento com id "app"
+          document.getElementById('app').innerHTML = html;
+        });
+    }
+  });
+  
+  // Função para navegar para uma nova rota
+  function navigateTo(path) {
+    window.history.pushState(null, null, path);
+    // Dispara o evento popstate para carregar a página HTML correspondente
+    window.dispatchEvent(new PopStateEvent('popstate'));
+  }
