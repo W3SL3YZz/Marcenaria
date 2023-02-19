@@ -2,7 +2,7 @@
 
 .homeProdutos {
     display: flex;
-    background: url("../image/teste3.jpg");
+    background: url("../image/fundo3.jpg");
     background-color: black;
     background-size: cover;
     height: 100vh;
