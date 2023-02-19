@@ -1,5 +1,5 @@
 /*  Home   inicio  */
-.produtos {
+.homeProdutos {
     display: flex;
     background: url("../image/teste3.jpg");
     background-color: black;
@@ -10,31 +10,31 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.produtos .max-width {
+.homeProdutos .max-width {
     margin: auto 0 auto 40px;
 }
 
-.produtos .produtos-content .text-1 {
+.homeProdutos .homeProdutos-content .text-1 {
     font-size: 27px;
 }
 
-.produtos .produtos-content .text-2 {
+.homeProdutos .homeProdutos-content .text-2 {
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
 }
 
-.produtos .produtos-content .text-3 {
+.homeProdutos .homeProdutos-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
 
-.produtos .produtos-content .text-3 span {
+.homeProdutos .homeProdutos-content .text-3 span {
     color: #ffcc00;
     font-weight: 500;
 }
 
-.produtos .produtos-content a {
+.homeProdutos .homeProdutos-content a {
     display: inline-block;
     background: #e9be1196;
     color: #fff;
@@ -45,7 +45,7 @@
     border: 2px solid #e9be11;
 }
 
-.produtos .produtos-content a:hover {
+.homeProdutos .homeProdutos-content a:hover {
     color: #e9be11;
     background: none;
 }
