@@ -30,6 +30,7 @@ $(document).ready(function(){
 
 });
 
+
 document.write("<h1>Array: "+Array02 +"</h1>");
 document.write("<h1>Tamanho: "+Array02.length +"</h1>");
 
