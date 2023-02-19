@@ -37,7 +37,7 @@ document.write("<h1>Tamanho: "+Array02.length +"</h1>");
 // Define as rotas e suas correspondentes páginas HTML
 const routes = {
     '/': 'index.html',
-    '/produtos': 'produtos.html',
+    '/produtos': 'marcenaria/produtos.html',
   };
   
   // Adiciona um listener de eventos para mudança da URL
