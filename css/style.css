@@ -917,3 +917,17 @@ footer span a:hover {
         font-size: 27px;
     }
 }  */
+
+@media (max-width: 880px) {
+
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card {
+        flex: 1 1 150px;
+        margin: 5px;
+    }
+
+}

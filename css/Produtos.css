@@ -76,8 +76,6 @@
     .homeProdutos {
         background: url("../image/asd.jpg") no-repeat;
         height: 100vh;
-
-
     }
 
     .homeProdutos .homeProdutos-content {
@@ -112,6 +110,4 @@
         padding: 12px 20px;
         text-align: center;
     }
-
-
 }
