@@ -656,7 +656,11 @@ footer span a:hover {
     text-decoration: underline;
 }
 
-
+/*                                          */
+/*                                          */
+/*                 RESOLUCAO                */
+/*                                          */
+/*                                          */
 
 @media (max-width: 858px) {
     .checkbtn {
@@ -735,8 +739,7 @@ footer span a:hover {
     }
 
     .home {
-        background: url("../image/asd.jpg") no-repeat;
-        
+        background-color: #222;       
         height: 100vh;
 
 
