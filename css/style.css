@@ -97,80 +97,6 @@ html {
 }
 
 
-@media (max-width: 858px) {
-    .checkbtn {
-        display: block;
-        margin-right: -50px;
-    }
-
-    .navbarReportei {
-        position: relative;
-        background: #4c4848;
-        padding: 5px 0;
-
-    }
-
-    .navbarReportei .menu {
-        position: absolute;
-        background: #232323;
-        width: 100%;
-        height: 320px;
-        top: 100%;
-        left: 100%;
-        text-align: left;
-        transition: all .5s;
-    }
-
-    .navbarReportei .logo a {
-        color: #aaaaaa!important;
-        font-size: 25px;
-        font-weight: bold;
-        padding-left: 0px;
-        margin-left: -50px;
-        text-align: left;
-    }
-
-    .navbarReportei.sticky {
-        background: #353432;
-        padding: 5px 0;
-    }
-
-    .navbarReportei .menu li {
-        display: block;
-        margin: 30px 50px;
-        line-height: 30px;
-        
-    }
-    .navbarReportei .menu li a {
-        font-size: 14px;
-        font-weight: 700;
-        color: #aaaaaa!important;
-        border: 1px  #FFF;
-        
-    }
-
-    .navbarReportei .menu li:after {
-        content: "";
-        display: block;
-        left: 70px; 
-        right: 0;
-        position: absolute;
-        height: 1px;
-        background-color: #303030;
-        width: 80%;
-    }
-
-    a:active, a:hover {
-        background: none;
-        color: #e9be11;
-    }
-    #check:checked ~ .menu {
-        left: 0;
-    }
-}
-
-
-
 
 
 /*  Home   inicio  */
@@ -732,6 +658,123 @@ footer span a:hover {
 
 
 
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        margin-right: -50px;
+    }
+
+    .navbarReportei {
+        position: relative;
+        background: #4c4848;
+        padding: 5px 0;
+
+    }
+
+    .navbarReportei .menu {
+        position: absolute;
+        background: #232323;
+        width: 100%;
+        height: 320px;
+        top: 100%;
+        left: -100%;
+        text-align: left;
+        transition: all .5s;
+    }
+
+    .navbarReportei .logo a {
+        color: #aaaaaa !important;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 0px;
+        margin-left: -50px;
+        text-align: left;
+    }
+
+    .navbarReportei.sticky {
+        background: #353432;
+        padding: 5px 0;
+    }
+
+    .navbarReportei .menu li {
+        display: block;
+        margin: 30px 50px;
+        line-height: 30px;
+
+    }
+
+    .navbarReportei .menu li a {
+        font-size: 14px;
+        font-weight: 700;
+        color: #aaaaaa !important;
+        border: 1px #FFF;
+
+    }
+
+    .navbarReportei .menu li:after {
+        content: "";
+        display: block;
+        left: 70px;
+        right: 0;
+        position: absolute;
+        height: 1px;
+        background-color: #303030;
+        width: 80%;
+    }
+
+    a:active,
+    a:hover {
+        background: none;
+        color: #e9be11;
+    }
+
+    #check:checked~.menu {
+        left: 0;
+    }
+
+    .home {
+        background: url("../image/asd.jpg") no-repeat;
+        
+        height: 100vh;
+
+
+    }
+
+    .home .home-content {
+        margin-left: -30px;
+        margin-top: -250px;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 20px;
+        margin-left: auto;
+    }
+    
+    .home .home-content .text-2 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: -3px;
+
+    }
+    
+    .home .home-content .text-3 {
+        font-size: 27px;
+        margin: 5px 0;
+
+    }
+    
+    .home .home-content .text-3 span {
+        font-size: 25px;
+    }
+
+    .home .home-content a {
+        font-size: 15px;
+        padding: 12px 20px;
+        text-align: center;
+    }
+    
+
+}
 
 
 
