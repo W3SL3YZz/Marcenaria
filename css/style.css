@@ -100,41 +100,66 @@ html {
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
+        margin-right: -50px;
     }
 
     .navbarReportei {
-        background: #353432;
+        position: relative;
+        background: #4c4848;
         padding: 5px 0;
 
     }
 
     .navbarReportei .menu {
-        position: fixed;
+        position: absolute;
+        background: #232323;
         width: 100%;
-        height: 100%;
-        background: #111;
-        top: 100px;
+        height: 320px;
+        top: 100%;
         left: 100%;
-        text-align: center;
+        text-align: left;
         transition: all .5s;
     }
 
     .navbarReportei .logo a {
-        color: #000000;
+        color: #aaaaaa!important;
         font-size: 25px;
         font-weight: bold;
         padding-left: 0px;
+        margin-left: -50px;
+        text-align: left;
+    }
+
+    .navbarReportei.sticky {
+        background: #353432;
+        padding: 5px 0;
     }
 
     .navbarReportei .menu li {
         display: block;
-        margin: 50px 0;
+        margin: 30px 50px;
         line-height: 30px;
-        text-transform: uppercase;
+        
     }
     .navbarReportei .menu li a {
-        font-size: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #aaaaaa!important;
+        border: 1px  #FFF;
+        
     }
+
+    .navbarReportei .menu li:after {
+        content: "";
+        display: block;
+        left: 70px; 
+        right: 0;
+        position: absolute;
+        height: 1px;
+        background-color: #303030;
+        width: 80%;
+    }
+
     a:active, a:hover {
         background: none;
         color: #e9be11;
