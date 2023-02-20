@@ -96,9 +96,6 @@ html {
     display: none;
 }
 
-
-
-
 /*  Home   inicio  */
 .home {
     display: flex;
@@ -713,7 +710,7 @@ footer span a:hover {
         font-weight: 700;
         color: #aaaaaa !important;
         border: 1px #FFF;
-        
+
 
     }
 
@@ -739,7 +736,7 @@ footer span a:hover {
     }
 
     .home {
-        background-color: #222;       
+        background-color: #222;
         height: 100vh;
 
 
@@ -754,20 +751,20 @@ footer span a:hover {
         font-size: 20px;
         margin-left: auto;
     }
-    
+
     .home .home-content .text-2 {
         font-size: 25px;
         font-weight: 500;
         margin-left: -3px;
 
     }
-    
+
     .home .home-content .text-3 {
         font-size: 27px;
         margin: 5px 0;
 
     }
-    
+
     .home .home-content .text-3 span {
         font-size: 25px;
     }
@@ -777,7 +774,7 @@ footer span a:hover {
         padding: 12px 20px;
         text-align: center;
     }
-    
+
 
 }
 
@@ -918,16 +915,38 @@ footer span a:hover {
     }
 }  */
 
-@media (max-width: 880px) {
+@media (max-width: 858px) {
 
-    .services{
+    .services .max-width .title {
+        font-size: 30px;
+    }
+
+    .services {
+        width: fit-content;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .card {
         flex: 1 1 150px;
         margin: 5px;
+        position: static;
+    }
+
+}
+
+@media (max-width: 858px) {
+
+    .about {
+        background: #111;
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 
 }
